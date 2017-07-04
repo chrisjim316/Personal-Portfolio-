@@ -13,7 +13,7 @@ body {
 .pageTwo {
   background:url("https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/About.jpg?raw=true");
   background-size: cover;
-  height: 1000px; 
+  height: 1300px; 
   padding-top:10px;
 }
 
@@ -162,5 +162,17 @@ footer {
   left: 50%;
 }
 
+.skill {
+  background-color: black;
+  opacity: .8;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 15px;
+  position: relative;
+  display: inline-block;
+}
 
+.skillLabel {
+  color: #0099ff;
+}
 
