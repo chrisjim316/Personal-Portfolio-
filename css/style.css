@@ -2,6 +2,7 @@ body {
   margin-top: 50px;
   background-color: white;
   color: white;
+  font-family: 'Athiti', sans-serif;
 }
 
 .pageOne {
@@ -13,7 +14,7 @@ body {
 .pageTwo {
   background:url("https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/About.jpg?raw=true");
   background-size: cover;
-  height: 1300px; 
+  height: 1500px; 
   padding-top:10px;
 }
 
@@ -101,18 +102,15 @@ body {
 h1 {
   padding-top: 10px;
   font-size: 7.0em;
-  font-family: Lobster;
 }
 
 h2 {
-  font-family: Lobster;
   font-size: 3.0em;
-  color: #0099ff;
+  color: black;
 }
 
 h3 {
   font-size: 2.5em;
-  font-family: Lobster;
 }
 
 .transBlock {
@@ -172,7 +170,23 @@ footer {
   display: inline-block;
 }
 
-.skillLabel {
-  color: #0099ff;
+.skillLabel, #projectLabel {
+  color: white;
 }
+
+.self-intro {
+  text-align: center; 
+  font-size: 2.5em;
+  color: black;
+  opacity: .7;
+  width: 50%; 
+  margin: 0 auto;
+}
+
+hr {
+  width: 65%;
+  height: 5px;
+  background-color: black;
+}
+
 
