@@ -1,6 +1,8 @@
 <header> 
-  <!-- import Lobster font from google fronts --> 
+  <!-- import Lobster font from google fonts --> 
   <link href='http://fonts.googleapis.com/css?family=Lobster&effect=font-effect-outline' rel='stylesheet'   type='text/css'>
+  <!-- import Athiti font from google fonts -->  
+  <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
   <!-- importing font awesome icons --> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </header>
@@ -22,7 +24,8 @@
      <div class="collapse navbar-collapse myNavbar">
        <ul class="nav navbar-nav navbar-right">
          <li class="active"><a href="#home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-         <li><a href="#experience"><span class="glyphicon glyphicon-user"></span> Experience</a></li>
+         <li><a href="#about"><span class="glyphicon glyphicon-user"></span> About </a></li> 
+         <li><a href="#experience"><span class="glyphicon glyphicon-road"></span> Experience</a></li>
          <li><a href="#portfolio"><span class="glyphicon glyphicon-briefcase"></span> Portfolio</a></li>
          <li><a href="#contact"><span class="glyphicon glyphicon-globe"></span> Contact</a></li>
        </ul>
@@ -31,7 +34,6 @@
 </nav>
   
 <!-- Section 1 -->
-
   <section class="pageOne text-center" id="home">
     <div class="transBlock text-center">
       <h1> Chris Jim </h1>
@@ -47,23 +49,42 @@
   </section>
   
 <!-- Section 2 --> 
-  <section class="pageTwo" id="experience">
+  <section class="pageTwo" id="home">
+    <div class="text-center">
+      <h1 style="color:blue; top:20px;"> Technical Skills </h1>  
+    </div> 
+  </section>
+
+<!-- Section 3 --> 
+  <section class="pageThree" id="experience">
     <div>
       <h1 class="text-center"> My Experience </h1> 
     </div>
   </section>
-
-<!-- Section 3 --> 
-  <section class="pageThree" id="portfolio">
-    <div>
-      <div id="particles-js">
-        <h1 class="text-center"> Portfolio </h1>
+  
+<!-- Section 4 -->   
+  <section class="pageFour" id="portfolio">
+    <div id="particles-js">
+      <h1 class="text-center"> Portfolio </h1>
+      <div>
+        <h2 class="text-center" style="position:relative; top:-10px;"> WORLDTROTTER </h2>
+        <div class="worldTrotter">
+          <ul style="width:550px; font-family: 'Athiti', sans-serif;"> 
+            <li> 
+              This app contains multiple views(tabs). One view converts values between degrees Fahrenheit and degrees Celsius, one displays the world map, and the other displays web view.
+            </li>
+            <li>
+              All views are localized in three distinct languages (English, Chinese, Spanish).
+            </li>
+          </ul>
+        </div>
+        <img src="https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/TransWorldTrotter.png?raw=true" alt="WorldTrotter" id="worldTrotter">
       </div>
     </div>
   </section> 
   
-<!-- Section 4 -->   
-  <section class="pageFour" id="contact">
+<!-- Section 5 -->  
+  <section class="pageFive" id="contact">
     <h1 class="text-center"> Contact Me </h1>
     <div class="bottomBtnList">
       <a class="btn btn-email btn-lg" href="mailto:chrisjim316@gmail.com" title="Email"><i class="fa fa-2x fa-envelope"></i></a>
