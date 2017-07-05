@@ -189,4 +189,9 @@ hr {
   background-color: black;
 }
 
+#bigNerdRanch {
+  position: relative; 
+  width: 7%;
+  height: 7%;
+}
 
