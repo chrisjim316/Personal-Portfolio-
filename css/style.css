@@ -194,10 +194,14 @@ hr {
   width: 8%;
   height: 8%;
 }
-  
-@media (min-width:1025px)   {
+
+/* 
+background scroll effects only work in desktop versions with larger 
+screen sizes, preventing background images from getting distorted in smaller tablets, phones, etc.  
+*/
+@media (min-width:2050px)   {
   .pageOne, .pageTwo, .pageThree, .pageFour, .pageFive {
-      background-repeat: no-repeat; 
+    	background-repeat: no-repeat; 
       background-attachment: fixed;
       background-position: center; 
    }
