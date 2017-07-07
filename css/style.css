@@ -6,20 +6,20 @@ body {
 }
 
 .pageOne {
-  background:url("http://picknotebook.com/blog/wp-content/uploads/2015/11/best-laptop-for-programming.jpg") no-repeat fixed center;
+  background:url("http://picknotebook.com/blog/wp-content/uploads/2015/11/best-laptop-for-programming.jpg");
   background-size: cover;
   height: 1000px;
 }
 
 .pageTwo {
-  background:url("https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/About.jpg?raw=true") no-repeat fixed center;
+  background:url("https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/About.jpg?raw=true");
   background-size: cover;
   height: 1500px; 
   padding-top:10px;
 }
 
 .pageThree {
-  background:url("https://user-images.githubusercontent.com/26378494/27760489-27e29304-5e7b-11e7-9046-764748e56fab.jpg") no-repeat fixed center;
+  background:url("https://user-images.githubusercontent.com/26378494/27760489-27e29304-5e7b-11e7-9046-764748e56fab.jpg");
   background-size: cover;
   height: 1000px;
   padding-top: 5px;
@@ -28,13 +28,10 @@ body {
 .pageFour {
   height: 1500px;
   margin-top: -20px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
 }
 
 .pageFive {
-  background:url("http://unsplash.com/photos/ZItuB3bb8aE/download?force=true") no-repeat fixed center;
+  background:url("http://unsplash.com/photos/ZItuB3bb8aE/download?force=true");
   background-size: cover;
   height: 350px;
   padding-top: 10px;
@@ -197,4 +194,13 @@ hr {
   width: 8%;
   height: 8%;
 }
+  
+@media (min-width:1025px)   {
+  .pageOne, .pageTwo, .pageThree, .pageFour, .pageFive {
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+      background-position: center; 
+   }
+}
 
+} 
