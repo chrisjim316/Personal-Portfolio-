@@ -199,7 +199,7 @@ hr {
 /* 
 background scroll effects only work in desktop versions with larger   screen sizes, preventing background images from getting distorted in smaller tablets, phones, etc.  
 */
-@media (min-width:1200px)   {
+@media (min-width:1400px)   {
   .pageOne, .pageTwo, .pageThree, .pageFour, .pageFive {
     	background-repeat: no-repeat; 
       background-attachment: fixed;
