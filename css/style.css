@@ -24,7 +24,7 @@ html, body {
 .pageTwo {
   background:url("https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/About.jpg?raw=true");
   background-size: cover;
-  height: 100%;
+  min-height: 100%;
   padding-bottom: 40px;
   padding-top:40px;
 }
@@ -33,7 +33,7 @@ html, body {
 .pageThree {
   background:url("https://user-images.githubusercontent.com/26378494/28327004-d6d6ce24-6c14-11e7-9051-3e682504ee70.jpg");
   background-size: cover;
-  height: 100%;
+  min-height: 100%;
   padding-top: 20px;
   padding-bottom: 60px;
 }
@@ -50,7 +50,7 @@ html, body {
   background:url("https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/Contact.jpg?raw=true");
   background-size: cover;
   height: 350px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .btnList {
@@ -177,7 +177,7 @@ h3 {
 /* self intro background configuration */
 .self-intro {
   background: silver;
-  height: 100%;
+  min-height: 100%
   width: 100%;
   padding-top: 60px;
 }
@@ -259,7 +259,7 @@ footer {
 /* The Timeline - Experience Page */
 
 #timeline {
-  font-size: 2.3em;
+  font-size: 2.6em;
 }
 
 .timeline {
@@ -305,7 +305,7 @@ footer {
 /* control left dot on timeline */
 .direction-l {
   position: relative;
-  width: 376px;
+  width: 417px;
   float: left;
   text-align: right;
 }
@@ -398,7 +398,7 @@ footer {
   font-size: 0.8em;
   color: rgb(250,80,80);
   vertical-align: middle;
-  border-style: solid;
+  border-style: hidden;
   border-width: 1px;
 }
 
@@ -461,9 +461,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   .skill {
     font-size: 5vw;
   }
-  .transBlock {
-    width: 65%;
-  }
   ul {
     font-size: 4.5vw;
     width: 80%;
@@ -475,12 +472,6 @@ background scroll effects only work in desktop versions with larger   screen siz
     background-size: 100% 100%;
     background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
     height: 450px;
-  }
-  .pageTwo {
-    height: 100%;
-  }
-  .pageThree {
-    height: 100%;
   }
   .title {
     padding-bottom: 10px;
@@ -499,7 +490,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   /* self intro background configuration */
   .self-intro { 
     padding-top: 40px;
-    height: 100%;
   }
   /* paragraph self-intro */
   #self-intro {
@@ -527,6 +517,10 @@ background scroll effects only work in desktop versions with larger   screen siz
   #footer {
     font-size: 3vw;
   }
+  /*College/Job Position*/
+  #timeline {
+    font-size: 15vw;
+  }
 }
 
 /*ipad screens*/
@@ -536,40 +530,31 @@ background scroll effects only work in desktop versions with larger   screen siz
     height: 30vh;
   }
   h1 {
-    font-size: 10vw;
-  }
-  h2 {
     font-size: 8vw;
   }
-  h3 {
+  h2 {
     font-size: 6vw;
+  }
+  h3 {
+    font-size: 4vw;
   }
   p {
-    font-size: 6vw;
+    font-size: 4vw;
   }
   .skill {
-    font-size: 5vw;
-  }
-  .transBlock {
-    width: 65%;
+    font-size: 3vw;
   }
   ul {
-    font-size: 4.5vw;
+    font-size: 1.5vw;
     width: 80%;
   }
   #pageTwoLabel {
-    font-size: 13vw;
+    font-size: 10vw;
   }
   .pageOne {
     background-size: 100% 100%;
     background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
-    height: 600px;
-  }
-  .pageTwo {
-    height: 100%;
-  }
-  .pageThree {
-    height: 100%;
+    height: 500px;
   }
   .title {
     padding-bottom: 10px;
@@ -588,36 +573,50 @@ background scroll effects only work in desktop versions with larger   screen siz
   /* self intro background configuration */
   .self-intro { 
     padding-top: 40px;
-    height: 100%;
   }
   /* paragraph self-intro */
   #self-intro {
     width: 80%;
-    font-size: 5vw;
+    font-size: 3vw;
   }
   #borderText {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
   #jobPosition {
-    font-size:6.5vw;
+    font-size:4.5vw;
   }
   .pageTitles {
     width: 85%;
   }
   #pageTitle {
-    font-size: 12vw;
+    font-size: 9vw;
   }
   /*skill category title */
   #pageTwoLabel {
-    font-size: 10vw;
+    font-size: 6vw;
     padding-bottom: 10px;
   }
   #footer {
     font-size: 3vw;
   }
+  /*College/Job Position*/
+  #timeline {
+    font-size: 10vw;
+  }
+  /*date/time span*/
+  .time-wrapper {
+    font-size: 1.5vw;
+  }
+  /*desc of College/Job Position*/
+  .desc {
+    font-size: 2vw;
+  }
+  .timeline {
+    width: 900px;
+  }
 }
 
-/* Timeline Media Queries  */
+/* ================ Timeline Media Queries ================ */
 @media screen and (max-width: 660px) {
   .timeline {
  	  width: 100%;
