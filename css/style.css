@@ -51,16 +51,7 @@ html, body {
   background-size: cover;
   height: 350px;
   padding-top: 20px;
-}
-
-.btnList {
-  display: block;
-  width: 100%;
-  top: 400px;
-  bottom: 0;
-  position: absolute;
-  text-align: center;
-}
+} 
 
 .bottomBtnList {
   display: block;
@@ -290,14 +281,14 @@ footer {
   -webkit-box-shadow: inset 40em 0 0 0 #ed5565;
   box-shadow: inset 40em 0 0 0 #ed5565;
 }
-.timeline-event h3{
+.timeline-event #workplace{
   transition: all .3s;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -ms-transition: all .3s;
   -o-transition: all .3s;
 }
-.timeline-event:hover  h3{
+.timeline-event:hover  #workplace{
   color: #ed5565;
 }
 .timeline-event-copy {
@@ -307,25 +298,11 @@ footer {
   top: -32px;
   width: 100%;
 }
-.timeline-event-copy h3 {
-  font-size: 28px;
-}
-.timeline-event-copy h4 {
-  font-size: 20px;
-  font-family: 'Raleway', sans-serif;
-}
-.timeline-event-copy strong {
-  font-weight: 700;
-}
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
   padding-bottom: 0px;
-}
-.timeline-event-copy p.edu-result {
-  margin: 0px !important;
-  padding: 0px !important;
 }
 .timeline-event-icon {
   -moz-transition: -moz-transform 0.2s ease-in;
