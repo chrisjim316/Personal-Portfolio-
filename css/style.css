@@ -10,7 +10,7 @@ html, body {
 
 /* Intro page */
 .pageOne {
-  background:url("https://user-images.githubusercontent.com/26378494/28993089-cad2f656-79df-11e7-814c-0e268245b511.jpg");
+  background:url("https://user-images.githubusercontent.com/30268174/34919107-89ecd660-f956-11e7-9578-cb83f9d50a08.jpg");
   background-size: cover;
   height: 1000px;
 }
@@ -417,7 +417,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   }
   .pageOne {
     background-size: 100% 100%;
-    background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
     height: 450px;
   }
   .title {
@@ -525,7 +524,7 @@ background scroll effects only work in desktop versions with larger   screen siz
     font-size: 3vw;
   }
   ul {
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     width: 80%;
   }
   #pageTwoLabel {
@@ -533,7 +532,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   }
   .pageOne {
     background-size: 100% 100%;
-    background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
     height: 500px;
   }
   .title {
@@ -612,7 +610,6 @@ background scroll effects only work in desktop versions with larger   screen siz
     font-size: 4vw;
   }
   #techUsed {
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
 }
-
