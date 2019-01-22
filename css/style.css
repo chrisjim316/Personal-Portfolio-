@@ -228,7 +228,7 @@ h3 {
 }
 
 #jobPosition {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 footer {
@@ -390,7 +390,7 @@ background scroll effects only work in desktop versions with larger   screen siz
     height: 30vh;
   }
   h1 {
-    font-size: 14vw;
+    font-size: 12vw;
   }
   h2 {
     font-size: 8vw;
@@ -413,7 +413,7 @@ background scroll effects only work in desktop versions with larger   screen siz
   }
   .pageOne {
     background-size: 100% 100%;
-    height: 450px;
+    height: 550px;
   }
   .title {
     padding-bottom: 10px;
