@@ -11,6 +11,8 @@ $(document).ready(function(){
   $("#showLess8").hide(); 
   $("#showLess9").hide();
   $("#showLess10").hide();
+  $("#showLess11").hide();
+  $("#showLess12").hide();
   
 	$(".scroll").click(function(event){
 		event.preventDefault();
@@ -101,6 +103,22 @@ $(document).ready(function(){
   $("#showLess10").on("click", function() { 
     $("#viewMore10").show();
     $("#showLess10").hide();
+  });
+  $("#viewMore11").on("click", function() {
+    $("#viewMore11").hide();
+    $("#showLess11").show();
+  });
+  $("#showLess11").on("click", function() { 
+    $("#viewMore11").show();
+    $("#showLess11").hide();
+  });
+  $("#viewMore12").on("click", function() {
+    $("#viewMore12").hide();
+    $("#showLess12").show();
+  });
+  $("#showLess12").on("click", function() { 
+    $("#viewMore12").show();
+    $("#showLess12").hide();
   });
 });
 
